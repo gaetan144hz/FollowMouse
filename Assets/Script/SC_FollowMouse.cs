@@ -31,6 +31,7 @@ public class SC_FollowMouse : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(wobblePosition); //bouge le player
+        //clamp la vitesse, avoir une vitesse max sinon suit trop vite la souris lors du respawn
     }
 
     #region FaceMouse

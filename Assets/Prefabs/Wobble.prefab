@@ -492,6 +492,7 @@ GameObject:
   - component: {fileID: 7234644074090624603}
   - component: {fileID: 7234644074090624580}
   - component: {fileID: 1390729379112473012}
+  - component: {fileID: 2196288737618631680}
   - component: {fileID: 7234644074090624600}
   - component: {fileID: 7234644074090624601}
   m_Layer: 0
@@ -603,6 +604,21 @@ MonoBehaviour:
   canSpawn: 1
   wobbleCorps: {fileID: 3838020342847271446, guid: b41576156f09ab04d83f4bcdbb552c48, type: 3}
   waitingTime: 0.3
+--- !u!114 &2196288737618631680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234644074090624581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38bec2ae2eb06c449a4291f116031a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wobbleRespawn: {fileID: 0}
+  canRespawn: 1
+  timeBeforeRespawn: 5
 --- !u!50 &7234644074090624600
 Rigidbody2D:
   serializedVersion: 4
